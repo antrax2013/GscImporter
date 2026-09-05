@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+.vs/
+data/
+imports/
+archives/
+*.db
+*.db-shm
+*.db-wal

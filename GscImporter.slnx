@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GscImporter.Domain/GscImporter.Domain.csproj" />
+    <Project Path="src/GscImporter.Application/GscImporter.Application.csproj" />
+    <Project Path="src/GscImporter.Infrastructure/GscImporter.Infrastructure.csproj" />
+    <Project Path="src/GscImporter.Cli/GscImporter.Cli.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GscImporter.Tests/GscImporter.Tests.csproj" />
+  </Folder>
+</Solution>

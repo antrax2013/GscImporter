@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../GscImporter.Domain/GscImporter.Domain.csproj" />
+  </ItemGroup>
+</Project>

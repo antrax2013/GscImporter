@@ -103,6 +103,8 @@ public sealed partial class GscZipExportReader : ISearchConsoleExportReader
         }
     }
 
-    [GeneratedRegex("^(?<scheme>https?)___(?<host>.+?)_-Performance-on-Search-.*\\.zip$", RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
+    [GeneratedRegex(
+    @"^(?:(?<scheme>https?)___)?(?<host>[A-Za-z0-9.-]+)_?-Performance-on-Search-\d{4}-\d{2}-\d{2}(?:_\d+)?\.zip$",
+    RegexOptions.IgnoreCase | RegexOptions.CultureInvariant)]
     private static partial Regex ExportFileNamePattern();
 }
